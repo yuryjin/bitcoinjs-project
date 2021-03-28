@@ -1,0 +1,29 @@
+{
+  "name": "bitcoinjs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack js/src.js build/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuryjin/bitcoinjs-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuryjin/bitcoinjs-project/issues"
+  },
+  "homepage": "https://github.com/yuryjin/bitcoinjs-project#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "bitcoinjs-lib": "^5.2.0",
+    "browserify": "^17.0.0",
+    "webpack": "^5.28.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  }
+}
